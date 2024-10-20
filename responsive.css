@@ -1,0 +1,666 @@
+@media only screen and (max-width: 668px){
+    .messages-top{
+        display: none;
+    }
+}
+@media only screen and (max-width: 868px){
+     .container .menu_01{
+        display: none;
+    }
+    .container .menu_02{
+        display: none;
+    }
+    .container .menu_03{
+        display: none;
+    } 
+   
+     .bars{
+        display: block;
+       position: absolute;
+       right: 0px;
+       padding: 10px;
+       top: 10px;
+     } 
+
+     .mobile-menu{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgb(113, 112, 112), rgba(0, 0, 0, 0.689));
+        display: none;
+        position: absolute;
+        top: 0px;
+     transition: 0.8s all ease-in;
+      z-index: 999;
+        /* background: transparent; */
+        
+     }
+     
+     .mobile-menu .bars_01{
+        display: block;
+        position: absolute;
+        right: 5px;
+        padding: 5px;
+        top: 5px;
+        border: none;
+        /* border: 1px solid rgb(255, 255, 255); */
+        border-radius: 30px;
+        box-shadow: 1px 3px 2px rgb(136, 136, 136);
+     }
+     .bars_01 .fa-multiply{
+        color: gray;
+     }
+     .banner-img{
+        background-image: linear-gradient(rgb(1, 95, 118),rgba(21, 1, 1, 0.483)),url('https://img.freepik.com/free-photo/group-buses-driving-along-road-sunset_157027-4307.jpg?w=1060&t=st=1720545972~exp=1720546572~hmac=dfaf73d1173261e406a9c5674707f1523af3e1bf47c3a0a074b1300f83198ad8');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* height: 700px; */
+        width: 100%;
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 668px){
+    .banner-img h1{
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 40px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .banner-img a button{
+        position: relative;
+        left: 33%;
+        top: 80px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #6295A2;
+        color: white;
+    }
+    .mobile-banner-img2 {
+        width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 99;
+    display: block;
+    }
+    .mobile-banner-img2 img{
+        width: 300px;
+        height: 200px;
+        position: relative;
+    top: 400px;
+    mix-blend-mode: normal;
+    left: 10%;
+    }
+
+    .booked1 {
+        /* width: 100%; */
+        /* border: 1px solid rgb(0, 0, 0); */
+        margin-top: 30rem;
+    position: relative;
+    /* top: 105%; */
+    height: 250px;
+    }
+    .booked1 .row .booking_0{
+        position: absolute;
+        height: 250px;
+       
+    }
+    .booked1 .row .booking_0 .call_now{
+       width: 100%;
+       /* border: 1px solid white; */
+      background-image: linear-gradient(rgb(115, 26, 216), rgb(85, 59, 193));
+      color: white;
+      height: 250px;
+      padding: 50px 10px ;
+     border-radius: 10px;
+     font-size: 20px;
+     position: relative;
+     top: 100%;
+    }
+    .booked1 .row .booking_0 .call_now .calling{
+        font-size: 60px;
+       
+        border-radius: 50%;
+        color: orange;
+    }
+    .booked1 .row .booking_01{
+        width: 100%;
+        /* border: 1px solid wheat; */
+        margin-left: 0px;
+        background-color: rgb(242, 241, 241);
+        border-radius: 5px;
+        margin-top: 0px;
+    }
+    .booked1 .row .booking_02 h4{
+        color: rgb(3, 84, 149);
+        font-weight: bold;
+        font-size: 26px;
+    }
+    .booking_01 .online_booked{
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: space-around;
+    }
+    .online_booked .from{
+        width: 32%;
+        height: 200px;
+        /* border: 1px solid black; */
+        padding: 10px;
+    }
+    .from label{
+        color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+    .from > input{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 2px;
+        background-color: rgb(193, 191, 191);
+    }
+    .from > input::placeholder{
+       padding: 3px;
+    
+    }
+    .from1 label{
+        color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+    .from1 > input{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 2px;
+        background-color: rgb(193, 191, 191);
+    }
+    .from1 > input::placeholder{
+       padding: 3px;
+    
+    }
+    .from2 > input::placeholder{
+       padding: 3px;
+    
+    }
+    .online_booked .from1{
+        width: 32%;
+        height: 200px;
+        /* border: 1px solid black; */
+        padding: 10px;
+    }
+    .online_booked .from2{
+        width: 32%;
+        height: 200px;
+        /* border: 1px solid black; */
+        padding: 10px;
+    }
+    .from2 label{
+        color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+    .from2 > input{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 2px;
+        background-color: rgb(193, 191, 191);
+    }
+    .from2 > button{
+        padding: 10px 20px;
+        margin: 2%;
+        border-radius: 4px;
+        border: none;
+        background-color: orange;
+        font-weight: bold;
+    }
+    .from2 > button:hover{
+        background-color: #025368;
+        transition: .2s;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .direct{
+        position: relative;
+    }
+    .direct .container .row{
+        display: flex;
+        justify-content:space-around;
+          
+    }
+     .direct .container{
+        position: absolute;
+        top: 14rem;
+      /* margin-top: 50%; */
+    }
+    .direct .container .row .direct_01{
+        width: 100%;
+        /* border: 1px solid black; */
+        padding: 20px;
+    } 
+    .direct .container .row .direct_02{
+        width: 100%;
+        /* border: 1px solid black; */
+        padding: 20px;
+        margin-top: 15px;
+    } 
+    .direct .container .row .direct_03{
+        width: 100%;
+        /* border: 1px solid black; */
+        padding: 20px;
+        margin-top: 15px;
+    } 
+    .direct .container .row .direct_04{
+        width: 100%;
+        /* border: 1px solid black; */
+        padding: 20px;
+        margin-top: 15px;
+    }
+    .direct .container .row .direct_01 h3{
+        font-size: 40px;
+    }
+    .direct .container .row .direct_02 h3{
+        font-size: 40px;
+    }
+    .direct .container .row .direct_03 h3{
+        font-size: 40px;
+    }
+    .direct .container .row .direct_04 h3{
+        font-size: 40px;
+    }
+    .direct .container .row .direct_01 .content_01 p{
+        font-size: 20px;
+        text-align: center;
+    } 
+    .direct .container .row .direct_02 .content_02 p{
+        font-size: 20px;
+        text-align: center;
+    } 
+    .direct .container .row .direct_03 .content_03 p{
+        font-size: 20px;
+        text-align: center;
+    } 
+     .direct_04 .content_04 p{
+        font-size: 20px;
+        text-align: center;
+    } 
+    .direct .container .row .direct_03 .content_03 a{
+       margin-left: 25%;
+    }
+    .direct .container .row .direct_02 .content_02 a{
+       margin-left: 25%;
+    }
+    .direct .container .row .direct_01 .content_01 a{
+       margin-left: 25%;
+    }
+    .direct .container .row .direct_04 .content_04   a{
+       margin-left: 25%;
+    }
+
+    .direct .container .row .direct_01 .content_01 .fa-ticket{
+        font-size: 50px;
+        margin-left: 40%;
+        background-color: orange;
+        color: rgb(255, 255, 255);
+        border-radius: 40%;
+        }
+    .direct .container .row .direct_02 .content_02 .fa-shield{
+        font-size: 50px;
+        margin-left: 40%;
+        background-color: orange;
+        color: rgb(255, 255, 255);
+        border-radius: 40%;
+        }
+    .direct .container .row .direct_03 .content_03 .fa-comments-dollar{
+        font-size: 50px;
+        margin-left: 40%;
+        background-color: orange;
+        color: rgb(255, 255, 255);
+        border-radius: 40%;
+        }
+    .direct .container .row .direct_04 .content_04 .fa-ticket{
+        font-size: 50px;
+        margin-left: 40%;
+        background-color: orange;
+        color: rgb(184, 181, 181);
+        border-radius: 40%;
+        }
+        .direct .container .row .direct_04 .content_04 button{
+            padding: 10px 15px;
+            background-color: #6295A2;
+            color: white;
+            border-radius: 8px;
+            border: none;
+            position: absolute;
+            top: 100px;
+            left: 6rem;
+        }
+        .retal{
+            margin-top: 90rem;
+        }
+        .retal .container .row .rental_01 h3{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .retal .container .row .rental_01 p{
+            font-size: 16px;
+            text-align: justify;
+        }
+        .retal .container .row .rental_02 img{
+            width: 100%;
+            height: 300px;
+            box-shadow: -10px -5px 2px 10px orange;
+        }
+        .retal .container .row .rental_01 .ready{
+            display: inline;
+            justify-content: space-around;
+        }
+        .retal .container .row .rental_01 .ready h1{
+            color: orange;
+            font-weight: bold;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .retal .container .row .rental_01 .ready h6{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .retal .container .row .rental_01 .ready p{
+            text-align: center;
+            font-size: 1rem;
+        }
+        .retal .container .row .rental_01 .ready .ready_01{
+            width: 100%;
+        }
+        .retal .container .row .rental_01 .ready .ready_02{
+            width: 100%;
+        }
+
+        .servicess_01{
+            font-size: 1.3rem;
+        }
+
+        .choice_bus .container .row .choice_bus_01{
+            display: inline;
+            justify-content: space-around;
+        }
+        .choice_bus .container .row .choice_bus_01 .buses_01{
+            width: 100%;
+            height: 700px;
+            /* border: 1px solid black; */
+            
+        }
+        .choice_bus .container .row .choice_bus_01 .buses_02{
+            width: 100%;
+            height: 700px;
+            /* border: 1px solid black; */
+            
+        }
+        .choice_bus .container .row .choice_bus_01 .buses_03{
+            width: 100%;
+            height: 700px;
+            /* border: 1px solid black; */
+            
+        }
+
+
+        .card_01 .container-fluid .row{
+            display: inline;
+            justify-content: space-around;
+           }
+           .card_01 .container-fluid .row .cards_1{
+            width: 100%;
+            height: 540px;
+            /* border: 1px solid black; */
+            margin-top: 20px;
+           }
+           .card_01 .container-fluid .row .cards_2{
+            width: 100%;
+            height: 540px;
+            /* border: 1px solid black; */
+            margin-top: 20px;
+           }
+           .card_01 .container-fluid .row .cards_3{
+            width: 100%;
+            height: 540px;
+            /* border: 1px solid black; */
+            margin-top: 20px;
+           }
+           .card_01 .container-fluid .row .cards_4{
+            width: 100%;
+            height: 540px;
+            /* border: 1px solid black; */
+           }
+           .riding .container-fluid .row .riding_01 h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+        .riding .container-fluid .row .riding_01 .loremm{
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 20px;
+        }
+        .riding .container-fluid .row .riding_01 .safety{
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid white; */
+            display: inline;
+        }
+        .riding .container-fluid .row .riding_01 .safety .safety_01{
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid white; */
+        }
+        .riding .container-fluid .row .riding_01 .safety .safety_02{
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid white; */
+        }
+        .premium .container-fluid .row .premium_01{
+            width: 100%;
+            height: 310px;
+            /* border: 1px solid black; */
+            background-color: #488290;
+        }
+        .premium .container-fluid .row .premium_02{
+            width: 100%;
+            /* height: 500px; */
+            /* border: 1px solid black; */
+            background-color: #488290;
+        }
+        .premium .container-fluid .row .premium_02 h6{
+            padding: 10px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            color: orange;
+            margin-top: 30px;
+        }
+        .premium .container-fluid .row .premium_02 h1{
+            padding: 10px;
+           font-size: 2rem;
+           margin-top: -30px;
+           font-weight: bold;
+        }
+        .premium .container-fluid .row .premium_02 a button{
+            padding: 10px 20px;
+            position: relative;
+            top: 30px;
+            right: 50px;
+            border: none;
+            border-radius: 5px;
+            background-color: #48c2ef;
+            color: #fff;
+            /* margin-top: 20px; */
+        }
+        .premium .container-fluid .row .premium_01 img{
+            width: 100%;
+            height: 300px;
+            position: relative;
+            left: -40px;
+        }
+        .premium .container-fluid .row .premium_02 .volume{
+            margin-top: 50px;
+            margin-left: 60px;
+            font-size: 25px;
+            display: inline-block;
+            color: white;
+        }
+        .destination .row .dest h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+         }
+         .testimonial .container-fluid .row .test_01 img{
+            width: 100%;
+            height: 300px;
+           margin-top: -50px;
+           box-shadow: 0 10px 0px 6px rgb(2, 125, 115);
+         }
+         .testimonial .container-fluid .row .test_02 .testi h1{
+            font-size: 1.5rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: 20px;
+            font-weight: bold;
+         }
+         .testimonial .container-fluid{
+            background-image: url(https://img.freepik.com/free-vector/abstract-shiny-lines-white-gray-minimal-background-design_84443-2817.jpg?t=st=1727001791~exp=1727005391~hmac=43aca8fd9fcd9a5c40354e90c229d7e5b784d8c9b5025a8e79907a2447087aa4&w=1060);
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+         }
+         .testimonial .container-fluid .row .test_02{
+            height: none;
+         }
+         .testimonial .container-fluid .row .test_02 .testi{
+            width: 100%;
+           
+            padding: 20px;
+            /* border: 1px solid black; */
+         }
+         .testimonial .container-fluid .row .test_01 img{
+            width: 100%;
+          
+           margin-top: -50px;
+           box-shadow: 0 10px 0px 6px rgb(255, 251, 0);
+           margin-left: 0;
+         }  
+         .testimonial .container-fluid .row .test_02 .testi .carousll_01 .carousel-item .nisi_01 p{
+            font-size: 13px;
+            text-align: justify;
+         }
+         .testimonial .container-fluid .row .test_02 .testi .carousll_01 .carousel-item{
+            cursor: grab;
+            width: 100%;
+         }
+         .testimonial .container-fluid .row .test_02 .testi .carousll_01{
+            width: 100%;
+            height: 250px;
+            /* border: 1px solid black; */
+            box-shadow: -1px -1px 4px rgb(170, 169, 169);
+            margin-top: 20px;
+         }
+         .blog_0 .container #purus{
+            color: black;
+            font-weight: none;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -0%);
+            width: 100%;
+            /* margin-top: 50px; */
+         } 
+         .portaas .container{
+            /* display: flex; */
+            justify-content: space-between;
+            
+         }
+         .portaas .container .row .porta_01{
+            width: 100%;
+            height: 400px;
+            /* border: 1px solid black; */
+            margin-top: 10px;
+         }
+         .portaas .container .row .porta_02{
+            width: 100%;
+            height: 400px;
+            /* border: 1px solid black; */
+            margin-top: 10px;
+         }
+         .portaas .container .row .porta_03{
+            width: 100%;
+            height: 400px;
+            /* border: 1px solid black; */
+            margin-top: 10px;
+         }
+         .last_footer img{
+            mix-blend-mode: multiply;
+            width: 200px;
+         }
+         .last_footer .row .footer_01{
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid white; */
+         }
+         .last_footer .row .footer_02{
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid white; */
+         }
+         .last_footer{
+            width: 100%;
+            height: auto;
+            margin-top: 80px;
+            background-image: linear-gradient( rgb(2, 73, 112),rgb(0, 0, 0));
+         }
+         .last_footer .row .footer_03{
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid white; */
+            display: flex;
+         }
+         .last_footer .row .payment_01{
+            width: 100%;
+            height: 150px;
+            /* border: 1px solid black; */
+          }
+          .last_footer .footer-logo{
+            display: inline;
+            justify-content: center;
+            align-items: center;
+          }
+          .last_footer .footer-logo .footer-content{
+            width: 100%;
+            
+          }
+          .last_footer .footer-logo .footer_logo_img{
+            width: 100%;
+            
+          }
+          .last_footer .footer-logo .footer_logo_img  {
+            /* width: 50%; */
+           background-image: url(assets/Sewa\ Bus.png);
+            width: 100px;
+            height: 50px;
+            margin-top: 20px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            top: 50%;
+            left: 50%;
+          transform: translate(-50%,-0%);
+          }
+}
+
